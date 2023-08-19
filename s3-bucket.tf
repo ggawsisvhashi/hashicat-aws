@@ -3,7 +3,7 @@ module "s3-bucket" {
   version = "2.8.0"
 }
 
-variable "prefix" {
+variable "bucket_prefix" {
   description = "This prefix will be included in the name of most resources."
   default     = "gokulguna"
 }
